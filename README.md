@@ -4,9 +4,9 @@
 
 This project analyses e-commerce data to evaluate commercial performance, revenue trends, and marketing channel effectiveness. 
 
-The goal is to understand how revenue is generated over time, identify key acquisition channels, and highlight areas where volatility and data limitations affect business insight.
+The goal is to understand how revenue is generated over time, find which channel the majority of the revenue is coming from, and highlight areas which could limit or misdirect business insight due to volatility in the data. 
 
-The analysis focuses on core KPIs, time-based revenue trends, and marketing channel contribution, using Python (Pandas & Matplotlib) to produce clear, repeatable outputs.
+The analysis focuses on core KPIs, time-based revenue trends and marketing channel contribution, using Python (Pandas & Matplotlib) to produce clear, repeatable outputs.
 
 # Key Insights
     # Monthly Revenue Trend
@@ -18,13 +18,13 @@ The analysis focuses on core KPIs, time-based revenue trends, and marketing chan
 # Data Assumptions
     One row represents one completed order
     Orders without a valid price or purchase timestamp are excluded
-    Missing marketing attribution is retained and labelled as unknown to preserve valid transactions
+    Missing marketing sources are retained and labelled as unknown to preserve valid transactions
 
 # Summary insight:
 The dataset contains over 20,000 completed orders, generating $3.76M in revenue. Customers typically place just over one order each, indicating limited repeat purchasing and a largely transactional customer base.
 
 # Revenue Trends Over Time
-Revenue was analysed at multiple time frames. Daily revenue proved highly volatile and offered limited insight, so monthly aggregation was used as the primary trend indicator.
+Revenue was analysed at multiple time frames. Daily revenue proved highly volatile and offered limited insight, so monthly revenue was used as the main trend indicator.
 
 # Key observations:
     Monthly revenue shows an overall upward trajectory
